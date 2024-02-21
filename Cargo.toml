@@ -1,0 +1,24 @@
+[package]
+name = "qemu-sys"
+version = "0.0.1"
+authors = ["fengjian <445077+fengjian@users.noreply.github.com>"]
+edition = "2021"
+description = "The official *-sys library for interfacing with QEMU"
+license = "GPL-2.0"
+
+[package.metadata.docs.rs]
+features = ["x86_64"]
+
+[lib]
+name = "qemu_sys"
+
+[features]
+x86_64 = []
+i386 = []
+arm = []
+aarch64 = []
+ppc = []
+mips = []
+mipsel = []
+mips64 = []
+mips64el = []
